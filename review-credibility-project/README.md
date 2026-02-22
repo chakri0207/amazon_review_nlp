@@ -5,8 +5,8 @@ This project predicts whether an online review is **Credible** or **Fake** using
 ## Dataset
 - Fake Reviews Dataset (Kaggle)
 - Labels:
-  - CG → Credible
-  - OR → Fake
+  - CG → Fake (Computer Generated)
+  - OR → Credible (Original Review)
 
 ## Models
 - TF-IDF (text feature extraction)
@@ -37,4 +37,4 @@ This project predicts whether an online review is **Credible** or **Fake** using
 
 ## Output
 - Predicts whether a review is **Credible** or **Fake**
-- Accuracy target: 90–96%
+- Accuracy target: 80–90%
